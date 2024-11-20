@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Application</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+</head>
+<body>
+    <div class="container">
+        <form class="form" action="">
+            <input id="inp" type="text" placeholder="Enter City Name">
+            <button id="btn" type="submit"><i class="material-icons">search</i></button>
+        </form>
+        <div class="city-date">
+            <h2 id="city">Ahmedabad</h2>
+            <p id="date">18 Sept 2024</p>
+        </div>
+        <div class="weather">
+            <i class="material-icons weather-icon">wb_sunny</i>
+            <span class="weather-description">Sunny</span>
+        </div>
+        
+        <h2 id="temp">30°</h2>
+        <div class="additional">
+            <div class="wind">
+                <i class="material-icons">air</i>
+                <h3 id="speed">4 KM/H</h3>
+                <p>Wind</p>
+            </div>
+            <div class="humidity">
+                <i class="material-icons">water_drop</i>
+                <h3 id="per">33%</h3>
+                <p>Humidity</p>
+            </div>
+            <div class="visibility">
+                <i class="material-icons">visibility</i>
+                <h3 id="visibledis">5.7 KM</h3>
+                <p>Visibility</p>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
